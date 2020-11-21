@@ -19,7 +19,7 @@ U 1 1 5FBA8C77
 P 950 1450
 F 0 "SW1" H 950 1643 50  0000 C CNN
 F 1 "mx" H 950 1644 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 950 1650 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 950 1650 50  0001 C CNN
 F 3 "~" H 950 1650 50  0001 C CNN
 	1    950  1450
 	1    0    0    -1  
@@ -42,17 +42,6 @@ Wire Wire Line
 Wire Wire Line
 	750  1450 750  1300
 $Comp
-L Switch:SW_Push SW2
-U 1 1 60430AD3
-P 950 1900
-F 0 "SW2" H 950 2093 50  0000 C CNN
-F 1 "mx" H 950 2094 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 950 2100 50  0001 C CNN
-F 3 "~" H 950 2100 50  0001 C CNN
-	1    950  1900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D2
 U 1 1 60430AD9
 P 1000 2050
@@ -73,7 +62,7 @@ U 1 1 6043238D
 P 950 2800
 F 0 "SW4" H 950 2993 50  0000 C CNN
 F 1 "mx" H 950 2994 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 950 3000 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 950 3000 50  0001 C CNN
 F 3 "~" H 950 3000 50  0001 C CNN
 	1    950  2800
 	1    0    0    -1  
@@ -101,7 +90,7 @@ U 1 1 6043239C
 P 950 2350
 F 0 "SW3" H 950 2543 50  0000 C CNN
 F 1 "mx" H 950 2544 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 950 2550 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 950 2550 50  0001 C CNN
 F 3 "~" H 950 2550 50  0001 C CNN
 	1    950  2350
 	1    0    0    -1  
@@ -124,23 +113,12 @@ Wire Wire Line
 Wire Wire Line
 	750  2350 750  2200
 $Comp
-L Switch:SW_Push SW6
-U 1 1 604338E7
-P 950 3650
-F 0 "SW6" H 950 3843 50  0000 C CNN
-F 1 "mx" H 950 3844 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 950 3850 50  0001 C CNN
-F 3 "~" H 950 3850 50  0001 C CNN
-	1    950  3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D6
 U 1 1 604338ED
 P 1000 3800
 F 0 "D6" H 1000 3925 50  0000 C CNN
 F 1 "D" H 1000 3926 50  0001 C CNN
-F 2 "m78:diode_h" H 1000 3800 50  0001 C CNN
+F 2 "m78:diode_v" H 1000 3800 50  0001 C CNN
 F 3 "~" H 1000 3800 50  0001 C CNN
 	1    1000 3800
 	1    0    0    -1  
@@ -149,15 +127,13 @@ Wire Wire Line
 	1150 3800 1150 3650
 Wire Wire Line
 	850  3800 650  3800
-Wire Wire Line
-	750  3650 750  3500
 $Comp
 L Switch:SW_Push SW5
 U 1 1 604338F6
 P 950 3200
 F 0 "SW5" H 950 3393 50  0000 C CNN
 F 1 "mx" H 950 3394 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 950 3400 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 950 3400 50  0001 C CNN
 F 3 "~" H 950 3400 50  0001 C CNN
 	1    950  3200
 	1    0    0    -1  
@@ -179,216 +155,34 @@ Wire Wire Line
 	850  3350 650  3350
 Wire Wire Line
 	750  3200 750  3050
-Wire Wire Line
-	650  3800 650  3350
-Wire Wire Line
-	650  2500 650  2050
-Connection ~ 650  2950
-Wire Wire Line
-	650  2950 650  2500
-Connection ~ 650  3350
-Wire Wire Line
-	650  3350 650  2950
 Text GLabel 650  1200 1    50   Output ~ 0
 c0
-$Comp
-L Switch:SW_Push SW8
-U 1 1 604422B7
-P 1500 1900
-F 0 "SW8" H 1500 2093 50  0000 C CNN
-F 1 "mx" H 1500 2094 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1500 2100 50  0001 C CNN
-F 3 "~" H 1500 2100 50  0001 C CNN
-	1    1500 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D8
-U 1 1 604422BD
-P 1550 2050
-F 0 "D8" H 1550 2175 50  0000 C CNN
-F 1 "D" H 1550 2176 50  0001 C CNN
-F 2 "m78:diode_v" H 1550 2050 50  0001 C CNN
-F 3 "~" H 1550 2050 50  0001 C CNN
-	1    1550 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 2050 1700 1900
 Wire Wire Line
 	1400 2050 1200 2050
 Wire Wire Line
 	1300 1900 1300 1750
-$Comp
-L Switch:SW_Push SW7
-U 1 1 604422C6
-P 1500 1450
-F 0 "SW7" H 1500 1643 50  0000 C CNN
-F 1 "mx" H 1500 1644 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1500 1650 50  0001 C CNN
-F 3 "~" H 1500 1650 50  0001 C CNN
-	1    1500 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D7
-U 1 1 604422CC
-P 1550 1600
-F 0 "D7" H 1550 1725 50  0000 C CNN
-F 1 "D" H 1550 1726 50  0001 C CNN
-F 2 "m78:diode_v" H 1550 1600 50  0001 C CNN
-F 3 "~" H 1550 1600 50  0001 C CNN
-	1    1550 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 1600 1700 1450
 Wire Wire Line
 	1400 1600 1200 1600
 Wire Wire Line
 	1300 1450 1300 1300
-$Comp
-L Switch:SW_Push SW10
-U 1 1 604422D5
-P 1500 2800
-F 0 "SW10" H 1500 2993 50  0000 C CNN
-F 1 "mx" H 1500 2994 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1500 3000 50  0001 C CNN
-F 3 "~" H 1500 3000 50  0001 C CNN
-	1    1500 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D10
-U 1 1 604422DB
-P 1550 2950
-F 0 "D10" H 1550 3075 50  0000 C CNN
-F 1 "D" H 1550 3076 50  0001 C CNN
-F 2 "m78:diode_v" H 1550 2950 50  0001 C CNN
-F 3 "~" H 1550 2950 50  0001 C CNN
-	1    1550 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 2950 1700 2800
 Wire Wire Line
 	1400 2950 1200 2950
 Wire Wire Line
 	1300 2800 1300 2650
-$Comp
-L Switch:SW_Push SW9
-U 1 1 604422E4
-P 1500 2350
-F 0 "SW9" H 1500 2543 50  0000 C CNN
-F 1 "mx" H 1500 2544 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1500 2550 50  0001 C CNN
-F 3 "~" H 1500 2550 50  0001 C CNN
-	1    1500 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D9
-U 1 1 604422EA
-P 1550 2500
-F 0 "D9" H 1550 2625 50  0000 C CNN
-F 1 "D" H 1550 2626 50  0001 C CNN
-F 2 "m78:diode_v" H 1550 2500 50  0001 C CNN
-F 3 "~" H 1550 2500 50  0001 C CNN
-	1    1550 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 2500 1700 2350
 Wire Wire Line
 	1400 2500 1200 2500
 Wire Wire Line
 	1300 2350 1300 2200
-$Comp
-L Switch:SW_Push SW12
-U 1 1 604422F3
-P 1500 3650
-F 0 "SW12" H 1500 3843 50  0000 C CNN
-F 1 "mx" H 1500 3844 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1500 3850 50  0001 C CNN
-F 3 "~" H 1500 3850 50  0001 C CNN
-	1    1500 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D12
-U 1 1 604422F9
-P 1550 3800
-F 0 "D12" H 1550 3925 50  0000 C CNN
-F 1 "D" H 1550 3926 50  0001 C CNN
-F 2 "m78:diode_h" H 1550 3800 50  0001 C CNN
-F 3 "~" H 1550 3800 50  0001 C CNN
-	1    1550 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 3800 1700 3650
 Wire Wire Line
 	1400 3800 1200 3800
-Wire Wire Line
-	1300 3650 1300 3500
-$Comp
-L Switch:SW_Push SW11
-U 1 1 60442302
-P 1500 3200
-F 0 "SW11" H 1500 3393 50  0000 C CNN
-F 1 "mx" H 1500 3394 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1500 3400 50  0001 C CNN
-F 3 "~" H 1500 3400 50  0001 C CNN
-	1    1500 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D11
-U 1 1 60442308
-P 1550 3350
-F 0 "D11" H 1550 3475 50  0000 C CNN
-F 1 "D" H 1550 3476 50  0001 C CNN
-F 2 "m78:diode_v" H 1550 3350 50  0001 C CNN
-F 3 "~" H 1550 3350 50  0001 C CNN
-	1    1550 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 3350 1700 3200
 Wire Wire Line
 	1400 3350 1200 3350
 Wire Wire Line
 	1300 3200 1300 3050
 Wire Wire Line
-	1200 3800 1200 3350
-Connection ~ 1200 1600
-Connection ~ 1200 2050
-Connection ~ 1200 2500
-Wire Wire Line
-	1200 2500 1200 2050
-Connection ~ 1200 2950
-Wire Wire Line
-	1200 2950 1200 2500
-Connection ~ 1200 3350
-Wire Wire Line
 	1200 3350 1200 2950
 Text GLabel 1200 1200 1    50   Output ~ 0
 c1
-Wire Wire Line
-	1200 1600 1200 1200
-Wire Wire Line
-	1200 1600 1200 2050
-$Comp
-L Switch:SW_Push SW14
-U 1 1 6044505D
-P 2050 1900
-F 0 "SW14" H 2050 2093 50  0000 C CNN
-F 1 "mx" H 2050 2094 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2050 2100 50  0001 C CNN
-F 3 "~" H 2050 2100 50  0001 C CNN
-	1    2050 1900
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D D14
 U 1 1 60445063
@@ -402,21 +196,6 @@ F 3 "~" H 2100 2050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2250 2050 2250 1900
-Wire Wire Line
-	1950 2050 1750 2050
-Wire Wire Line
-	1850 1900 1850 1750
-$Comp
-L Switch:SW_Push SW13
-U 1 1 6044506C
-P 2050 1450
-F 0 "SW13" H 2050 1643 50  0000 C CNN
-F 1 "mx" H 2050 1644 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2050 1650 50  0001 C CNN
-F 3 "~" H 2050 1650 50  0001 C CNN
-	1    2050 1450
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D D13
 U 1 1 60445072
@@ -430,21 +209,6 @@ F 3 "~" H 2100 1600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2250 1600 2250 1450
-Wire Wire Line
-	1950 1600 1750 1600
-Wire Wire Line
-	1850 1450 1850 1300
-$Comp
-L Switch:SW_Push SW16
-U 1 1 6044507B
-P 2050 2800
-F 0 "SW16" H 2050 2993 50  0000 C CNN
-F 1 "mx" H 2050 2994 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2050 3000 50  0001 C CNN
-F 3 "~" H 2050 3000 50  0001 C CNN
-	1    2050 2800
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D D16
 U 1 1 60445081
@@ -458,21 +222,6 @@ F 3 "~" H 2100 2950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2250 2950 2250 2800
-Wire Wire Line
-	1950 2950 1750 2950
-Wire Wire Line
-	1850 2800 1850 2650
-$Comp
-L Switch:SW_Push SW15
-U 1 1 6044508A
-P 2050 2350
-F 0 "SW15" H 2050 2543 50  0000 C CNN
-F 1 "mx" H 2050 2544 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2050 2550 50  0001 C CNN
-F 3 "~" H 2050 2550 50  0001 C CNN
-	1    2050 2350
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D D15
 U 1 1 60445090
@@ -486,49 +235,19 @@ F 3 "~" H 2100 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2250 2500 2250 2350
-Wire Wire Line
-	1950 2500 1750 2500
-Wire Wire Line
-	1850 2350 1850 2200
-$Comp
-L Switch:SW_Push SW18
-U 1 1 60445099
-P 2050 3650
-F 0 "SW18" H 2050 3843 50  0000 C CNN
-F 1 "mx" H 2050 3844 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2050 3850 50  0001 C CNN
-F 3 "~" H 2050 3850 50  0001 C CNN
-	1    2050 3650
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D D18
 U 1 1 6044509F
 P 2100 3800
 F 0 "D18" H 2100 3925 50  0000 C CNN
 F 1 "D" H 2100 3926 50  0001 C CNN
-F 2 "m78:diode_h" H 2100 3800 50  0001 C CNN
+F 2 "m78:diode_v" H 2100 3800 50  0001 C CNN
 F 3 "~" H 2100 3800 50  0001 C CNN
 	1    2100 3800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2250 3800 2250 3650
-Wire Wire Line
-	1950 3800 1750 3800
-Wire Wire Line
-	1850 3650 1850 3500
-$Comp
-L Switch:SW_Push SW17
-U 1 1 604450A8
-P 2050 3200
-F 0 "SW17" H 2050 3393 50  0000 C CNN
-F 1 "mx" H 2050 3394 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2050 3400 50  0001 C CNN
-F 3 "~" H 2050 3400 50  0001 C CNN
-	1    2050 3200
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D D17
 U 1 1 604450AE
@@ -542,36 +261,15 @@ F 3 "~" H 2100 3350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2250 3350 2250 3200
-Wire Wire Line
-	1950 3350 1750 3350
-Wire Wire Line
-	1850 3200 1850 3050
-Wire Wire Line
-	1750 3800 1750 3350
-Connection ~ 1750 1600
-Connection ~ 1750 2050
-Connection ~ 1750 2500
-Wire Wire Line
-	1750 2500 1750 2050
-Connection ~ 1750 2950
-Wire Wire Line
-	1750 2950 1750 2500
-Connection ~ 1750 3350
-Wire Wire Line
-	1750 3350 1750 2950
 Text GLabel 1750 1200 1    50   Output ~ 0
 c2
-Wire Wire Line
-	1750 1600 1750 1200
-Wire Wire Line
-	1750 1600 1750 2050
 $Comp
 L Switch:SW_Push SW20
 U 1 1 6044844D
 P 2600 1900
 F 0 "SW20" H 2600 2093 50  0000 C CNN
 F 1 "mx" H 2600 2094 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2600 2100 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 2600 2100 50  0001 C CNN
 F 3 "~" H 2600 2100 50  0001 C CNN
 	1    2600 1900
 	1    0    0    -1  
@@ -599,7 +297,7 @@ U 1 1 6044845C
 P 2600 1450
 F 0 "SW19" H 2600 1643 50  0000 C CNN
 F 1 "mx" H 2600 1644 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2600 1650 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 2600 1650 50  0001 C CNN
 F 3 "~" H 2600 1650 50  0001 C CNN
 	1    2600 1450
 	1    0    0    -1  
@@ -627,7 +325,7 @@ U 1 1 6044846B
 P 2600 2800
 F 0 "SW22" H 2600 2993 50  0000 C CNN
 F 1 "mx" H 2600 2994 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2600 3000 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 2600 3000 50  0001 C CNN
 F 3 "~" H 2600 3000 50  0001 C CNN
 	1    2600 2800
 	1    0    0    -1  
@@ -655,7 +353,7 @@ U 1 1 6044847A
 P 2600 2350
 F 0 "SW21" H 2600 2543 50  0000 C CNN
 F 1 "mx" H 2600 2544 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2600 2550 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 2600 2550 50  0001 C CNN
 F 3 "~" H 2600 2550 50  0001 C CNN
 	1    2600 2350
 	1    0    0    -1  
@@ -678,23 +376,12 @@ Wire Wire Line
 Wire Wire Line
 	2400 2350 2400 2200
 $Comp
-L Switch:SW_Push SW24
-U 1 1 60448489
-P 2600 3650
-F 0 "SW24" H 2600 3843 50  0000 C CNN
-F 1 "mx" H 2600 3844 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2600 3850 50  0001 C CNN
-F 3 "~" H 2600 3850 50  0001 C CNN
-	1    2600 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D24
 U 1 1 6044848F
 P 2650 3800
 F 0 "D24" H 2650 3925 50  0000 C CNN
 F 1 "D" H 2650 3926 50  0001 C CNN
-F 2 "m78:diode_h" H 2650 3800 50  0001 C CNN
+F 2 "m78:diode_v" H 2650 3800 50  0001 C CNN
 F 3 "~" H 2650 3800 50  0001 C CNN
 	1    2650 3800
 	1    0    0    -1  
@@ -703,15 +390,13 @@ Wire Wire Line
 	2800 3800 2800 3650
 Wire Wire Line
 	2500 3800 2300 3800
-Wire Wire Line
-	2400 3650 2400 3500
 $Comp
 L Switch:SW_Push SW23
 U 1 1 60448498
 P 2600 3200
 F 0 "SW23" H 2600 3393 50  0000 C CNN
 F 1 "mx" H 2600 3394 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2600 3400 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 2600 3400 50  0001 C CNN
 F 3 "~" H 2600 3400 50  0001 C CNN
 	1    2600 3200
 	1    0    0    -1  
@@ -733,8 +418,6 @@ Wire Wire Line
 	2500 3350 2300 3350
 Wire Wire Line
 	2400 3200 2400 3050
-Wire Wire Line
-	2300 3800 2300 3350
 Connection ~ 2300 1600
 Connection ~ 2300 2050
 Connection ~ 2300 2500
@@ -743,7 +426,6 @@ Wire Wire Line
 Connection ~ 2300 2950
 Wire Wire Line
 	2300 2950 2300 2500
-Connection ~ 2300 3350
 Wire Wire Line
 	2300 3350 2300 2950
 Text GLabel 2300 1200 1    50   Output ~ 0
@@ -758,7 +440,7 @@ U 1 1 6044DB5B
 P 3200 1900
 F 0 "SW26" H 3200 2093 50  0000 C CNN
 F 1 "mx" H 3200 2094 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3200 2100 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3200 2100 50  0001 C CNN
 F 3 "~" H 3200 2100 50  0001 C CNN
 	1    3200 1900
 	1    0    0    -1  
@@ -786,7 +468,7 @@ U 1 1 6044DB6A
 P 3200 1450
 F 0 "SW25" H 3200 1643 50  0000 C CNN
 F 1 "mx" H 3200 1644 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3200 1650 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3200 1650 50  0001 C CNN
 F 3 "~" H 3200 1650 50  0001 C CNN
 	1    3200 1450
 	1    0    0    -1  
@@ -814,7 +496,7 @@ U 1 1 6044DB79
 P 3200 2800
 F 0 "SW28" H 3200 2993 50  0000 C CNN
 F 1 "mx" H 3200 2994 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3200 3000 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3200 3000 50  0001 C CNN
 F 3 "~" H 3200 3000 50  0001 C CNN
 	1    3200 2800
 	1    0    0    -1  
@@ -842,7 +524,7 @@ U 1 1 6044DB88
 P 3200 2350
 F 0 "SW27" H 3200 2543 50  0000 C CNN
 F 1 "mx" H 3200 2544 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3200 2550 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3200 2550 50  0001 C CNN
 F 3 "~" H 3200 2550 50  0001 C CNN
 	1    3200 2350
 	1    0    0    -1  
@@ -865,23 +547,12 @@ Wire Wire Line
 Wire Wire Line
 	3000 2350 3000 2200
 $Comp
-L Switch:SW_Push SW30
-U 1 1 6044DB97
-P 3200 3650
-F 0 "SW30" H 3200 3843 50  0000 C CNN
-F 1 "mx" H 3200 3844 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3200 3850 50  0001 C CNN
-F 3 "~" H 3200 3850 50  0001 C CNN
-	1    3200 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D30
 U 1 1 6044DB9D
 P 3250 3800
 F 0 "D30" H 3250 3925 50  0000 C CNN
 F 1 "D" H 3250 3926 50  0001 C CNN
-F 2 "m78:diode_h" H 3250 3800 50  0001 C CNN
+F 2 "m78:diode_v" H 3250 3800 50  0001 C CNN
 F 3 "~" H 3250 3800 50  0001 C CNN
 	1    3250 3800
 	1    0    0    -1  
@@ -890,15 +561,13 @@ Wire Wire Line
 	3400 3800 3400 3650
 Wire Wire Line
 	3100 3800 2900 3800
-Wire Wire Line
-	3000 3650 3000 3500
 $Comp
 L Switch:SW_Push SW29
 U 1 1 6044DBA6
 P 3200 3200
 F 0 "SW29" H 3200 3393 50  0000 C CNN
 F 1 "mx" H 3200 3394 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3200 3400 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3200 3400 50  0001 C CNN
 F 3 "~" H 3200 3400 50  0001 C CNN
 	1    3200 3200
 	1    0    0    -1  
@@ -920,8 +589,6 @@ Wire Wire Line
 	3100 3350 2900 3350
 Wire Wire Line
 	3000 3200 3000 3050
-Wire Wire Line
-	2900 3800 2900 3350
 Connection ~ 2900 1600
 Connection ~ 2900 2050
 Connection ~ 2900 2500
@@ -930,7 +597,6 @@ Wire Wire Line
 Connection ~ 2900 2950
 Wire Wire Line
 	2900 2950 2900 2500
-Connection ~ 2900 3350
 Wire Wire Line
 	2900 3350 2900 2950
 Text GLabel 2900 1200 1    50   Output ~ 0
@@ -945,7 +611,7 @@ U 1 1 60453507
 P 3750 1900
 F 0 "SW32" H 3750 2093 50  0000 C CNN
 F 1 "mx" H 3750 2094 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3750 2100 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3750 2100 50  0001 C CNN
 F 3 "~" H 3750 2100 50  0001 C CNN
 	1    3750 1900
 	1    0    0    -1  
@@ -973,7 +639,7 @@ U 1 1 60453516
 P 3750 1450
 F 0 "SW31" H 3750 1643 50  0000 C CNN
 F 1 "mx" H 3750 1644 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3750 1650 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3750 1650 50  0001 C CNN
 F 3 "~" H 3750 1650 50  0001 C CNN
 	1    3750 1450
 	1    0    0    -1  
@@ -1001,7 +667,7 @@ U 1 1 60453525
 P 3750 2800
 F 0 "SW34" H 3750 2993 50  0000 C CNN
 F 1 "mx" H 3750 2994 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3750 3000 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3750 3000 50  0001 C CNN
 F 3 "~" H 3750 3000 50  0001 C CNN
 	1    3750 2800
 	1    0    0    -1  
@@ -1029,7 +695,7 @@ U 1 1 60453534
 P 3750 2350
 F 0 "SW33" H 3750 2543 50  0000 C CNN
 F 1 "mx" H 3750 2544 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3750 2550 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3750 2550 50  0001 C CNN
 F 3 "~" H 3750 2550 50  0001 C CNN
 	1    3750 2350
 	1    0    0    -1  
@@ -1052,23 +718,12 @@ Wire Wire Line
 Wire Wire Line
 	3550 2350 3550 2200
 $Comp
-L Switch:SW_Push SW36
-U 1 1 60453543
-P 3750 3650
-F 0 "SW36" H 3750 3843 50  0000 C CNN
-F 1 "mx" H 3750 3844 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3750 3850 50  0001 C CNN
-F 3 "~" H 3750 3850 50  0001 C CNN
-	1    3750 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D36
 U 1 1 60453549
 P 3800 3800
 F 0 "D36" H 3800 3925 50  0000 C CNN
 F 1 "D" H 3800 3926 50  0001 C CNN
-F 2 "m78:diode_h" H 3800 3800 50  0001 C CNN
+F 2 "m78:diode_v" H 3800 3800 50  0001 C CNN
 F 3 "~" H 3800 3800 50  0001 C CNN
 	1    3800 3800
 	1    0    0    -1  
@@ -1077,15 +732,13 @@ Wire Wire Line
 	3950 3800 3950 3650
 Wire Wire Line
 	3650 3800 3450 3800
-Wire Wire Line
-	3550 3650 3550 3500
 $Comp
 L Switch:SW_Push SW35
 U 1 1 60453552
 P 3750 3200
 F 0 "SW35" H 3750 3393 50  0000 C CNN
 F 1 "mx" H 3750 3394 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3750 3400 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3750 3400 50  0001 C CNN
 F 3 "~" H 3750 3400 50  0001 C CNN
 	1    3750 3200
 	1    0    0    -1  
@@ -1107,8 +760,6 @@ Wire Wire Line
 	3650 3350 3450 3350
 Wire Wire Line
 	3550 3200 3550 3050
-Wire Wire Line
-	3450 3800 3450 3350
 Connection ~ 3450 1600
 Connection ~ 3450 2050
 Connection ~ 3450 2500
@@ -1117,7 +768,6 @@ Wire Wire Line
 Connection ~ 3450 2950
 Wire Wire Line
 	3450 2950 3450 2500
-Connection ~ 3450 3350
 Wire Wire Line
 	3450 3350 3450 2950
 Text GLabel 3450 1200 1    50   Output ~ 0
@@ -1132,7 +782,7 @@ U 1 1 6045B767
 P 4300 1900
 F 0 "SW38" H 4300 2093 50  0000 C CNN
 F 1 "mx" H 4300 2094 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4300 2100 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 4300 2100 50  0001 C CNN
 F 3 "~" H 4300 2100 50  0001 C CNN
 	1    4300 1900
 	1    0    0    -1  
@@ -1160,7 +810,7 @@ U 1 1 6045B776
 P 4300 1450
 F 0 "SW37" H 4300 1643 50  0000 C CNN
 F 1 "mx" H 4300 1644 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4300 1650 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 4300 1650 50  0001 C CNN
 F 3 "~" H 4300 1650 50  0001 C CNN
 	1    4300 1450
 	1    0    0    -1  
@@ -1188,7 +838,7 @@ U 1 1 6045B785
 P 4300 2800
 F 0 "SW40" H 4300 2993 50  0000 C CNN
 F 1 "mx" H 4300 2994 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4300 3000 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 4300 3000 50  0001 C CNN
 F 3 "~" H 4300 3000 50  0001 C CNN
 	1    4300 2800
 	1    0    0    -1  
@@ -1216,7 +866,7 @@ U 1 1 6045B794
 P 4300 2350
 F 0 "SW39" H 4300 2543 50  0000 C CNN
 F 1 "mx" H 4300 2544 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4300 2550 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 4300 2550 50  0001 C CNN
 F 3 "~" H 4300 2550 50  0001 C CNN
 	1    4300 2350
 	1    0    0    -1  
@@ -1239,23 +889,12 @@ Wire Wire Line
 Wire Wire Line
 	4100 2350 4100 2200
 $Comp
-L Switch:SW_Push SW42
-U 1 1 6045B7A3
-P 4300 3650
-F 0 "SW42" H 4300 3843 50  0000 C CNN
-F 1 "mx" H 4300 3844 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4300 3850 50  0001 C CNN
-F 3 "~" H 4300 3850 50  0001 C CNN
-	1    4300 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D42
 U 1 1 6045B7A9
 P 4350 3800
 F 0 "D42" H 4350 3925 50  0000 C CNN
 F 1 "D" H 4350 3926 50  0001 C CNN
-F 2 "m78:diode_h" H 4350 3800 50  0001 C CNN
+F 2 "m78:diode_v" H 4350 3800 50  0001 C CNN
 F 3 "~" H 4350 3800 50  0001 C CNN
 	1    4350 3800
 	1    0    0    -1  
@@ -1264,15 +903,13 @@ Wire Wire Line
 	4500 3800 4500 3650
 Wire Wire Line
 	4200 3800 4000 3800
-Wire Wire Line
-	4100 3650 4100 3500
 $Comp
 L Switch:SW_Push SW41
 U 1 1 6045B7B2
 P 4300 3200
 F 0 "SW41" H 4300 3393 50  0000 C CNN
 F 1 "mx" H 4300 3394 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4300 3400 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 4300 3400 50  0001 C CNN
 F 3 "~" H 4300 3400 50  0001 C CNN
 	1    4300 3200
 	1    0    0    -1  
@@ -1294,8 +931,6 @@ Wire Wire Line
 	4200 3350 4000 3350
 Wire Wire Line
 	4100 3200 4100 3050
-Wire Wire Line
-	4000 3800 4000 3350
 Connection ~ 4000 1600
 Connection ~ 4000 2050
 Connection ~ 4000 2500
@@ -1304,7 +939,6 @@ Wire Wire Line
 Connection ~ 4000 2950
 Wire Wire Line
 	4000 2950 4000 2500
-Connection ~ 4000 3350
 Wire Wire Line
 	4000 3350 4000 2950
 Text GLabel 4000 1200 1    50   Output ~ 0
@@ -1319,7 +953,7 @@ U 1 1 60465FB5
 P 4850 1900
 F 0 "SW44" H 4850 2093 50  0000 C CNN
 F 1 "mx" H 4850 2094 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4850 2100 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 4850 2100 50  0001 C CNN
 F 3 "~" H 4850 2100 50  0001 C CNN
 	1    4850 1900
 	1    0    0    -1  
@@ -1347,7 +981,7 @@ U 1 1 60465FC4
 P 4850 1450
 F 0 "SW43" H 4850 1643 50  0000 C CNN
 F 1 "mx" H 4850 1644 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4850 1650 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 4850 1650 50  0001 C CNN
 F 3 "~" H 4850 1650 50  0001 C CNN
 	1    4850 1450
 	1    0    0    -1  
@@ -1375,7 +1009,7 @@ U 1 1 60465FD3
 P 4850 2800
 F 0 "SW46" H 4850 2993 50  0000 C CNN
 F 1 "mx" H 4850 2994 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4850 3000 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 4850 3000 50  0001 C CNN
 F 3 "~" H 4850 3000 50  0001 C CNN
 	1    4850 2800
 	1    0    0    -1  
@@ -1403,7 +1037,7 @@ U 1 1 60465FE2
 P 4850 2350
 F 0 "SW45" H 4850 2543 50  0000 C CNN
 F 1 "mx" H 4850 2544 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4850 2550 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 4850 2550 50  0001 C CNN
 F 3 "~" H 4850 2550 50  0001 C CNN
 	1    4850 2350
 	1    0    0    -1  
@@ -1426,23 +1060,12 @@ Wire Wire Line
 Wire Wire Line
 	4650 2350 4650 2200
 $Comp
-L Switch:SW_Push SW48
-U 1 1 60465FF1
-P 4850 3650
-F 0 "SW48" H 4850 3843 50  0000 C CNN
-F 1 "mx" H 4850 3844 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4850 3850 50  0001 C CNN
-F 3 "~" H 4850 3850 50  0001 C CNN
-	1    4850 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D48
 U 1 1 60465FF7
 P 4900 3800
 F 0 "D48" H 4900 3925 50  0000 C CNN
 F 1 "D" H 4900 3926 50  0001 C CNN
-F 2 "m78:diode_h" H 4900 3800 50  0001 C CNN
+F 2 "m78:diode_v" H 4900 3800 50  0001 C CNN
 F 3 "~" H 4900 3800 50  0001 C CNN
 	1    4900 3800
 	1    0    0    -1  
@@ -1451,15 +1074,13 @@ Wire Wire Line
 	5050 3800 5050 3650
 Wire Wire Line
 	4750 3800 4550 3800
-Wire Wire Line
-	4650 3650 4650 3500
 $Comp
 L Switch:SW_Push SW47
 U 1 1 60466000
 P 4850 3200
 F 0 "SW47" H 4850 3393 50  0000 C CNN
 F 1 "mx" H 4850 3394 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4850 3400 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 4850 3400 50  0001 C CNN
 F 3 "~" H 4850 3400 50  0001 C CNN
 	1    4850 3200
 	1    0    0    -1  
@@ -1481,8 +1102,6 @@ Wire Wire Line
 	4750 3350 4550 3350
 Wire Wire Line
 	4650 3200 4650 3050
-Wire Wire Line
-	4550 3800 4550 3350
 Connection ~ 4550 1600
 Connection ~ 4550 2050
 Connection ~ 4550 2500
@@ -1491,7 +1110,6 @@ Wire Wire Line
 Connection ~ 4550 2950
 Wire Wire Line
 	4550 2950 4550 2500
-Connection ~ 4550 3350
 Wire Wire Line
 	4550 3350 4550 2950
 Text GLabel 4550 1200 1    50   Output ~ 0
@@ -1506,7 +1124,7 @@ U 1 1 60471CA3
 P 5400 1900
 F 0 "SW50" H 5400 2093 50  0000 C CNN
 F 1 "mx" H 5400 2094 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5400 2100 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 5400 2100 50  0001 C CNN
 F 3 "~" H 5400 2100 50  0001 C CNN
 	1    5400 1900
 	1    0    0    -1  
@@ -1534,7 +1152,7 @@ U 1 1 60471CB2
 P 5400 1450
 F 0 "SW49" H 5400 1643 50  0000 C CNN
 F 1 "mx" H 5400 1644 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5400 1650 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 5400 1650 50  0001 C CNN
 F 3 "~" H 5400 1650 50  0001 C CNN
 	1    5400 1450
 	1    0    0    -1  
@@ -1562,7 +1180,7 @@ U 1 1 60471CC1
 P 5400 2800
 F 0 "SW52" H 5400 2993 50  0000 C CNN
 F 1 "mx" H 5400 2994 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5400 3000 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 5400 3000 50  0001 C CNN
 F 3 "~" H 5400 3000 50  0001 C CNN
 	1    5400 2800
 	1    0    0    -1  
@@ -1590,7 +1208,7 @@ U 1 1 60471CD0
 P 5400 2350
 F 0 "SW51" H 5400 2543 50  0000 C CNN
 F 1 "mx" H 5400 2544 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5400 2550 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 5400 2550 50  0001 C CNN
 F 3 "~" H 5400 2550 50  0001 C CNN
 	1    5400 2350
 	1    0    0    -1  
@@ -1613,23 +1231,12 @@ Wire Wire Line
 Wire Wire Line
 	5200 2350 5200 2200
 $Comp
-L Switch:SW_Push SW54
-U 1 1 60471CDF
-P 5400 3650
-F 0 "SW54" H 5400 3843 50  0000 C CNN
-F 1 "mx" H 5400 3844 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5400 3850 50  0001 C CNN
-F 3 "~" H 5400 3850 50  0001 C CNN
-	1    5400 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D54
 U 1 1 60471CE5
 P 5450 3800
 F 0 "D54" H 5450 3925 50  0000 C CNN
 F 1 "D" H 5450 3926 50  0001 C CNN
-F 2 "m78:diode_h" H 5450 3800 50  0001 C CNN
+F 2 "m78:diode_v" H 5450 3800 50  0001 C CNN
 F 3 "~" H 5450 3800 50  0001 C CNN
 	1    5450 3800
 	1    0    0    -1  
@@ -1638,15 +1245,13 @@ Wire Wire Line
 	5600 3800 5600 3650
 Wire Wire Line
 	5300 3800 5100 3800
-Wire Wire Line
-	5200 3650 5200 3500
 $Comp
 L Switch:SW_Push SW53
 U 1 1 60471CEE
 P 5400 3200
 F 0 "SW53" H 5400 3393 50  0000 C CNN
 F 1 "mx" H 5400 3394 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5400 3400 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 5400 3400 50  0001 C CNN
 F 3 "~" H 5400 3400 50  0001 C CNN
 	1    5400 3200
 	1    0    0    -1  
@@ -1668,8 +1273,6 @@ Wire Wire Line
 	5300 3350 5100 3350
 Wire Wire Line
 	5200 3200 5200 3050
-Wire Wire Line
-	5100 3800 5100 3350
 Connection ~ 5100 1600
 Connection ~ 5100 2050
 Connection ~ 5100 2500
@@ -1678,7 +1281,6 @@ Wire Wire Line
 Connection ~ 5100 2950
 Wire Wire Line
 	5100 2950 5100 2500
-Connection ~ 5100 3350
 Wire Wire Line
 	5100 3350 5100 2950
 Text GLabel 5100 1200 1    50   Output ~ 0
@@ -1693,7 +1295,7 @@ U 1 1 6047F345
 P 5950 1900
 F 0 "SW56" H 5950 2093 50  0000 C CNN
 F 1 "mx" H 5950 2094 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5950 2100 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 5950 2100 50  0001 C CNN
 F 3 "~" H 5950 2100 50  0001 C CNN
 	1    5950 1900
 	1    0    0    -1  
@@ -1721,7 +1323,7 @@ U 1 1 6047F354
 P 5950 1450
 F 0 "SW55" H 5950 1643 50  0000 C CNN
 F 1 "mx" H 5950 1644 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5950 1650 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 5950 1650 50  0001 C CNN
 F 3 "~" H 5950 1650 50  0001 C CNN
 	1    5950 1450
 	1    0    0    -1  
@@ -1749,7 +1351,7 @@ U 1 1 6047F363
 P 5950 2800
 F 0 "SW58" H 5950 2993 50  0000 C CNN
 F 1 "mx" H 5950 2994 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5950 3000 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 5950 3000 50  0001 C CNN
 F 3 "~" H 5950 3000 50  0001 C CNN
 	1    5950 2800
 	1    0    0    -1  
@@ -1777,7 +1379,7 @@ U 1 1 6047F372
 P 5950 2350
 F 0 "SW57" H 5950 2543 50  0000 C CNN
 F 1 "mx" H 5950 2544 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5950 2550 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 5950 2550 50  0001 C CNN
 F 3 "~" H 5950 2550 50  0001 C CNN
 	1    5950 2350
 	1    0    0    -1  
@@ -1800,23 +1402,12 @@ Wire Wire Line
 Wire Wire Line
 	5750 2350 5750 2200
 $Comp
-L Switch:SW_Push SW60
-U 1 1 6047F381
-P 5950 3650
-F 0 "SW60" H 5950 3843 50  0000 C CNN
-F 1 "mx" H 5950 3844 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5950 3850 50  0001 C CNN
-F 3 "~" H 5950 3850 50  0001 C CNN
-	1    5950 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D60
 U 1 1 6047F387
 P 6000 3800
 F 0 "D60" H 6000 3925 50  0000 C CNN
 F 1 "D" H 6000 3926 50  0001 C CNN
-F 2 "m78:diode_h" H 6000 3800 50  0001 C CNN
+F 2 "m78:diode_v" H 6000 3800 50  0001 C CNN
 F 3 "~" H 6000 3800 50  0001 C CNN
 	1    6000 3800
 	1    0    0    -1  
@@ -1825,15 +1416,13 @@ Wire Wire Line
 	6150 3800 6150 3650
 Wire Wire Line
 	5850 3800 5650 3800
-Wire Wire Line
-	5750 3650 5750 3500
 $Comp
 L Switch:SW_Push SW59
 U 1 1 6047F390
 P 5950 3200
 F 0 "SW59" H 5950 3393 50  0000 C CNN
 F 1 "mx" H 5950 3394 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5950 3400 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 5950 3400 50  0001 C CNN
 F 3 "~" H 5950 3400 50  0001 C CNN
 	1    5950 3200
 	1    0    0    -1  
@@ -1855,8 +1444,6 @@ Wire Wire Line
 	5850 3350 5650 3350
 Wire Wire Line
 	5750 3200 5750 3050
-Wire Wire Line
-	5650 3800 5650 3350
 Connection ~ 5650 1600
 Connection ~ 5650 2050
 Connection ~ 5650 2500
@@ -1865,7 +1452,6 @@ Wire Wire Line
 Connection ~ 5650 2950
 Wire Wire Line
 	5650 2950 5650 2500
-Connection ~ 5650 3350
 Wire Wire Line
 	5650 3350 5650 2950
 Text GLabel 5650 1200 1    50   Output ~ 0
@@ -1880,7 +1466,7 @@ U 1 1 6048F9AD
 P 6500 1900
 F 0 "SW62" H 6500 2093 50  0000 C CNN
 F 1 "mx" H 6500 2094 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6500 2100 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 6500 2100 50  0001 C CNN
 F 3 "~" H 6500 2100 50  0001 C CNN
 	1    6500 1900
 	1    0    0    -1  
@@ -1908,7 +1494,7 @@ U 1 1 6048F9BC
 P 6500 1450
 F 0 "SW61" H 6500 1643 50  0000 C CNN
 F 1 "mx" H 6500 1644 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6500 1650 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 6500 1650 50  0001 C CNN
 F 3 "~" H 6500 1650 50  0001 C CNN
 	1    6500 1450
 	1    0    0    -1  
@@ -1936,7 +1522,7 @@ U 1 1 6048F9CB
 P 6500 2800
 F 0 "SW64" H 6500 2993 50  0000 C CNN
 F 1 "mx" H 6500 2994 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6500 3000 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 6500 3000 50  0001 C CNN
 F 3 "~" H 6500 3000 50  0001 C CNN
 	1    6500 2800
 	1    0    0    -1  
@@ -1964,7 +1550,7 @@ U 1 1 6048F9DA
 P 6500 2350
 F 0 "SW63" H 6500 2543 50  0000 C CNN
 F 1 "mx" H 6500 2544 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6500 2550 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 6500 2550 50  0001 C CNN
 F 3 "~" H 6500 2550 50  0001 C CNN
 	1    6500 2350
 	1    0    0    -1  
@@ -1987,23 +1573,12 @@ Wire Wire Line
 Wire Wire Line
 	6300 2350 6300 2200
 $Comp
-L Switch:SW_Push SW66
-U 1 1 6048F9E9
-P 6500 3650
-F 0 "SW66" H 6500 3843 50  0000 C CNN
-F 1 "mx" H 6500 3844 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6500 3850 50  0001 C CNN
-F 3 "~" H 6500 3850 50  0001 C CNN
-	1    6500 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D66
 U 1 1 6048F9EF
 P 6550 3800
 F 0 "D66" H 6550 3925 50  0000 C CNN
 F 1 "D" H 6550 3926 50  0001 C CNN
-F 2 "m78:diode_h" H 6550 3800 50  0001 C CNN
+F 2 "m78:diode_v" H 6550 3800 50  0001 C CNN
 F 3 "~" H 6550 3800 50  0001 C CNN
 	1    6550 3800
 	1    0    0    -1  
@@ -2012,15 +1587,13 @@ Wire Wire Line
 	6700 3800 6700 3650
 Wire Wire Line
 	6400 3800 6200 3800
-Wire Wire Line
-	6300 3650 6300 3500
 $Comp
 L Switch:SW_Push SW65
 U 1 1 6048F9F8
 P 6500 3200
 F 0 "SW65" H 6500 3393 50  0000 C CNN
 F 1 "mx" H 6500 3394 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6500 3400 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 6500 3400 50  0001 C CNN
 F 3 "~" H 6500 3400 50  0001 C CNN
 	1    6500 3200
 	1    0    0    -1  
@@ -2042,8 +1615,6 @@ Wire Wire Line
 	6400 3350 6200 3350
 Wire Wire Line
 	6300 3200 6300 3050
-Wire Wire Line
-	6200 3800 6200 3350
 Connection ~ 6200 1600
 Connection ~ 6200 2050
 Connection ~ 6200 2500
@@ -2052,7 +1623,6 @@ Wire Wire Line
 Connection ~ 6200 2950
 Wire Wire Line
 	6200 2950 6200 2500
-Connection ~ 6200 3350
 Wire Wire Line
 	6200 3350 6200 2950
 Text GLabel 6200 1200 1    50   Output ~ 0
@@ -2067,7 +1637,7 @@ U 1 1 604A7DA9
 P 7050 1900
 F 0 "SW68" H 7050 2093 50  0000 C CNN
 F 1 "mx" H 7050 2094 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7050 2100 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 7050 2100 50  0001 C CNN
 F 3 "~" H 7050 2100 50  0001 C CNN
 	1    7050 1900
 	1    0    0    -1  
@@ -2095,7 +1665,7 @@ U 1 1 604A7DB8
 P 7050 1450
 F 0 "SW67" H 7050 1643 50  0000 C CNN
 F 1 "mx" H 7050 1644 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7050 1650 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 7050 1650 50  0001 C CNN
 F 3 "~" H 7050 1650 50  0001 C CNN
 	1    7050 1450
 	1    0    0    -1  
@@ -2106,7 +1676,7 @@ U 1 1 604A7DBE
 P 7100 1600
 F 0 "D67" H 7100 1725 50  0000 C CNN
 F 1 "D" H 7100 1726 50  0001 C CNN
-F 2 "m78:diode_h" H 7100 1600 50  0001 C CNN
+F 2 "m78:diode_v" H 7100 1600 50  0001 C CNN
 F 3 "~" H 7100 1600 50  0001 C CNN
 	1    7100 1600
 	1    0    0    -1  
@@ -2123,7 +1693,7 @@ U 1 1 604A7DC7
 P 7050 2800
 F 0 "SW70" H 7050 2993 50  0000 C CNN
 F 1 "mx" H 7050 2994 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7050 3000 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 7050 3000 50  0001 C CNN
 F 3 "~" H 7050 3000 50  0001 C CNN
 	1    7050 2800
 	1    0    0    -1  
@@ -2151,7 +1721,7 @@ U 1 1 604A7DD6
 P 7050 2350
 F 0 "SW69" H 7050 2543 50  0000 C CNN
 F 1 "mx" H 7050 2544 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7050 2550 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 7050 2550 50  0001 C CNN
 F 3 "~" H 7050 2550 50  0001 C CNN
 	1    7050 2350
 	1    0    0    -1  
@@ -2174,23 +1744,12 @@ Wire Wire Line
 Wire Wire Line
 	6850 2350 6850 2200
 $Comp
-L Switch:SW_Push SW72
-U 1 1 604A7DE5
-P 7050 3650
-F 0 "SW72" H 7050 3843 50  0000 C CNN
-F 1 "mx" H 7050 3844 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7050 3850 50  0001 C CNN
-F 3 "~" H 7050 3850 50  0001 C CNN
-	1    7050 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D72
 U 1 1 604A7DEB
 P 7100 3800
 F 0 "D72" H 7100 3925 50  0000 C CNN
 F 1 "D" H 7100 3926 50  0001 C CNN
-F 2 "m78:diode_h" H 7100 3800 50  0001 C CNN
+F 2 "m78:diode_v" H 7100 3800 50  0001 C CNN
 F 3 "~" H 7100 3800 50  0001 C CNN
 	1    7100 3800
 	1    0    0    -1  
@@ -2199,15 +1758,13 @@ Wire Wire Line
 	7250 3800 7250 3650
 Wire Wire Line
 	6950 3800 6750 3800
-Wire Wire Line
-	6850 3650 6850 3500
 $Comp
 L Switch:SW_Push SW71
 U 1 1 604A7DF4
 P 7050 3200
 F 0 "SW71" H 7050 3393 50  0000 C CNN
 F 1 "mx" H 7050 3394 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7050 3400 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 7050 3400 50  0001 C CNN
 F 3 "~" H 7050 3400 50  0001 C CNN
 	1    7050 3200
 	1    0    0    -1  
@@ -2229,8 +1786,6 @@ Wire Wire Line
 	6950 3350 6750 3350
 Wire Wire Line
 	6850 3200 6850 3050
-Wire Wire Line
-	6750 3800 6750 3350
 Connection ~ 6750 1600
 Connection ~ 6750 2050
 Connection ~ 6750 2500
@@ -2239,7 +1794,6 @@ Wire Wire Line
 Connection ~ 6750 2950
 Wire Wire Line
 	6750 2950 6750 2500
-Connection ~ 6750 3350
 Wire Wire Line
 	6750 3350 6750 2950
 Text GLabel 6750 1200 1    50   Output ~ 0
@@ -2254,7 +1808,7 @@ U 1 1 604BEEAB
 P 7600 1900
 F 0 "SW74" H 7600 2093 50  0000 C CNN
 F 1 "mx" H 7600 2094 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7600 2100 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 7600 2100 50  0001 C CNN
 F 3 "~" H 7600 2100 50  0001 C CNN
 	1    7600 1900
 	1    0    0    -1  
@@ -2282,7 +1836,7 @@ U 1 1 604BEEBA
 P 7600 1450
 F 0 "SW73" H 7600 1643 50  0000 C CNN
 F 1 "mx" H 7600 1644 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7600 1650 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 7600 1650 50  0001 C CNN
 F 3 "~" H 7600 1650 50  0001 C CNN
 	1    7600 1450
 	1    0    0    -1  
@@ -2310,7 +1864,7 @@ U 1 1 604BEEC9
 P 7600 2800
 F 0 "SW76" H 7600 2993 50  0000 C CNN
 F 1 "mx" H 7600 2994 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7600 3000 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 7600 3000 50  0001 C CNN
 F 3 "~" H 7600 3000 50  0001 C CNN
 	1    7600 2800
 	1    0    0    -1  
@@ -2338,7 +1892,7 @@ U 1 1 604BEED8
 P 7600 2350
 F 0 "SW75" H 7600 2543 50  0000 C CNN
 F 1 "mx" H 7600 2544 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7600 2550 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 7600 2550 50  0001 C CNN
 F 3 "~" H 7600 2550 50  0001 C CNN
 	1    7600 2350
 	1    0    0    -1  
@@ -2361,17 +1915,6 @@ Wire Wire Line
 Wire Wire Line
 	7400 2350 7400 2200
 $Comp
-L Switch:SW_Push SW78
-U 1 1 604BEEE7
-P 7600 3650
-F 0 "SW78" H 7600 3843 50  0000 C CNN
-F 1 "mx" H 7600 3844 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7600 3850 50  0001 C CNN
-F 3 "~" H 7600 3850 50  0001 C CNN
-	1    7600 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D78
 U 1 1 604BEEED
 P 7650 3800
@@ -2386,15 +1929,13 @@ Wire Wire Line
 	7800 3800 7800 3650
 Wire Wire Line
 	7500 3800 7300 3800
-Wire Wire Line
-	7400 3650 7400 3500
 $Comp
 L Switch:SW_Push SW77
 U 1 1 604BEEF6
 P 7600 3200
 F 0 "SW77" H 7600 3393 50  0000 C CNN
 F 1 "mx" H 7600 3394 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7600 3400 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 7600 3400 50  0001 C CNN
 F 3 "~" H 7600 3400 50  0001 C CNN
 	1    7600 3200
 	1    0    0    -1  
@@ -2416,8 +1957,6 @@ Wire Wire Line
 	7500 3350 7300 3350
 Wire Wire Line
 	7400 3200 7400 3050
-Wire Wire Line
-	7300 3800 7300 3350
 Connection ~ 7300 1600
 Connection ~ 7300 2050
 Connection ~ 7300 2500
@@ -2426,7 +1965,6 @@ Wire Wire Line
 Connection ~ 7300 2950
 Wire Wire Line
 	7300 2950 7300 2500
-Connection ~ 7300 3350
 Wire Wire Line
 	7300 3350 7300 2950
 Text GLabel 7300 1200 1    50   Output ~ 0
@@ -2437,13 +1975,6 @@ Wire Wire Line
 	7300 1600 7300 2050
 Wire Wire Line
 	750  1300 1300 1300
-Connection ~ 1300 1300
-Wire Wire Line
-	1300 1300 1850 1300
-Connection ~ 1850 1300
-Wire Wire Line
-	1850 1300 2400 1300
-Connection ~ 2400 1300
 Wire Wire Line
 	2400 1300 3000 1300
 Connection ~ 3000 1300
@@ -2474,15 +2005,6 @@ Connection ~ 7400 1300
 Wire Wire Line
 	7400 1300 7900 1300
 Wire Wire Line
-	750  1750 1300 1750
-Connection ~ 1300 1750
-Wire Wire Line
-	1300 1750 1850 1750
-Connection ~ 1850 1750
-Wire Wire Line
-	1850 1750 2400 1750
-Connection ~ 2400 1750
-Wire Wire Line
 	2400 1750 3000 1750
 Connection ~ 3000 1750
 Wire Wire Line
@@ -2511,15 +2033,6 @@ Wire Wire Line
 Connection ~ 7400 1750
 Wire Wire Line
 	7400 1750 7900 1750
-Wire Wire Line
-	750  2200 1300 2200
-Connection ~ 1300 2200
-Wire Wire Line
-	1300 2200 1850 2200
-Connection ~ 1850 2200
-Wire Wire Line
-	1850 2200 2400 2200
-Connection ~ 2400 2200
 Wire Wire Line
 	2400 2200 3000 2200
 Connection ~ 3000 2200
@@ -2550,15 +2063,6 @@ Connection ~ 7400 2200
 Wire Wire Line
 	7400 2200 7950 2200
 Wire Wire Line
-	750  2650 1300 2650
-Connection ~ 1300 2650
-Wire Wire Line
-	1300 2650 1850 2650
-Connection ~ 1850 2650
-Wire Wire Line
-	1850 2650 2400 2650
-Connection ~ 2400 2650
-Wire Wire Line
 	2400 2650 3000 2650
 Connection ~ 3000 2650
 Wire Wire Line
@@ -2588,15 +2092,6 @@ Connection ~ 7400 2650
 Wire Wire Line
 	7400 2650 7950 2650
 Wire Wire Line
-	750  3050 1300 3050
-Connection ~ 1300 3050
-Wire Wire Line
-	1300 3050 1850 3050
-Connection ~ 1850 3050
-Wire Wire Line
-	1850 3050 2400 3050
-Connection ~ 2400 3050
-Wire Wire Line
 	2400 3050 3000 3050
 Connection ~ 3000 3050
 Wire Wire Line
@@ -2625,44 +2120,6 @@ Wire Wire Line
 Connection ~ 7400 3050
 Wire Wire Line
 	7400 3050 7950 3050
-Wire Wire Line
-	750  3500 1300 3500
-Connection ~ 1300 3500
-Wire Wire Line
-	1300 3500 1850 3500
-Connection ~ 1850 3500
-Wire Wire Line
-	1850 3500 2400 3500
-Connection ~ 2400 3500
-Wire Wire Line
-	2400 3500 3000 3500
-Connection ~ 3000 3500
-Wire Wire Line
-	3000 3500 3550 3500
-Connection ~ 3550 3500
-Wire Wire Line
-	3550 3500 4100 3500
-Connection ~ 4100 3500
-Wire Wire Line
-	4100 3500 4650 3500
-Connection ~ 4650 3500
-Wire Wire Line
-	4650 3500 5200 3500
-Connection ~ 5200 3500
-Wire Wire Line
-	5200 3500 5750 3500
-Connection ~ 5750 3500
-Wire Wire Line
-	5750 3500 6300 3500
-Connection ~ 6300 3500
-Wire Wire Line
-	6300 3500 6850 3500
-Connection ~ 6850 3500
-Wire Wire Line
-	6850 3500 7400 3500
-Connection ~ 7400 3500
-Wire Wire Line
-	7400 3500 7950 3500
 Text GLabel 7900 1300 2    50   Output ~ 0
 r0
 Text GLabel 7900 1750 2    50   Output ~ 0
@@ -2731,59 +2188,44 @@ Text GLabel 9550 1600 2    50   Output ~ 0
 gnd
 Text GLabel 8800 1600 0    50   Input ~ 0
 f90
-Text GLabel 8650 4800 0    50   Input ~ 0
+Text GLabel 7900 5600 0    50   Input ~ 0
 gnd
-Text GLabel 9850 2550 2    50   BiDi ~ 0
+Text GLabel 10300 4700 2    50   BiDi ~ 0
 r0
-Text GLabel 9850 2650 2    50   BiDi ~ 0
+Text GLabel 10300 4800 2    50   BiDi ~ 0
 r1
-Text GLabel 9850 2750 2    50   BiDi ~ 0
+Text GLabel 10300 4600 2    50   BiDi ~ 0
 r2
-Text GLabel 9850 2850 2    50   BiDi ~ 0
+Text GLabel 10300 4900 2    50   BiDi ~ 0
 r3
-Text GLabel 9850 3250 2    50   BiDi ~ 0
+Text GLabel 10300 5100 2    50   BiDi ~ 0
 r4
-Text GLabel 9850 3650 2    50   BiDi ~ 0
+Text GLabel 10300 5200 2    50   BiDi ~ 0
 r5
-Text GLabel 9850 4350 2    50   BiDi ~ 0
+Text GLabel 7900 4900 0    50   BiDi ~ 0
 c0
-Text GLabel 9850 2950 2    50   BiDi ~ 0
+Text GLabel 7900 5000 0    50   BiDi ~ 0
 c1
-Text GLabel 9850 3050 2    50   BiDi ~ 0
+Text GLabel 7900 4800 0    50   BiDi ~ 0
 c2
-Text GLabel 9850 3150 2    50   BiDi ~ 0
+Text GLabel 7900 4700 0    50   BiDi ~ 0
 c3
-Text GLabel 9850 5150 2    50   BiDi ~ 0
+Text GLabel 7900 4600 0    50   BiDi ~ 0
 c4
-Text GLabel 9850 5050 2    50   BiDi ~ 0
+Text GLabel 7900 4500 0    50   BiDi ~ 0
 c5
-Text GLabel 9850 4950 2    50   BiDi ~ 0
+Text GLabel 7900 4400 0    50   BiDi ~ 0
 c6
-Text GLabel 9850 4850 2    50   BiDi ~ 0
+Text GLabel 7900 4300 0    50   BiDi ~ 0
 c7
-Text GLabel 9850 3500 2    50   BiDi ~ 0
+Text GLabel 7900 5300 0    50   BiDi ~ 0
 c8
-Text GLabel 9850 3400 2    50   BiDi ~ 0
-c9
-Text GLabel 9850 3950 2    50   BiDi ~ 0
-c10
-Text GLabel 9850 3850 2    50   BiDi ~ 0
-c11
-Text GLabel 9850 3750 2    50   BiDi ~ 0
-c12
-Text GLabel 9850 4250 2    50   BiDi ~ 0
+Text GLabel 10300 5600 2    50   BiDi ~ 0
 cpp
-Text GLabel 9850 4050 2    50   BiDi ~ 0
+Text GLabel 10300 5700 2    50   BiDi ~ 0
 f90
-Connection ~ 650  2500
-Wire Wire Line
-	650  2050 650  1600
-Connection ~ 650  2050
 Wire Wire Line
 	850  1600 650  1600
-Connection ~ 650  1600
-Wire Wire Line
-	650  1600 650  1200
 $Comp
 L Device:LED D81
 U 1 1 5FC4A3A1
@@ -2812,25 +2254,586 @@ Text GLabel 9550 1850 2    50   Output ~ 0
 gnd
 Text GLabel 8800 1850 0    50   Input ~ 0
 pwr
-Text GLabel 8650 4350 0    50   Output ~ 0
+Text GLabel 7900 5500 0    50   Output ~ 0
 pwr
-NoConn ~ 8650 4700
-NoConn ~ 8650 4250
-NoConn ~ 8650 2550
-NoConn ~ 8650 2650
-NoConn ~ 9850 4150
-NoConn ~ 9850 4500
-NoConn ~ 9850 4650
-NoConn ~ 9850 4750
 $Comp
-L m78:TEENSY2.0 U1
+L teensy:Teensy2.0_(C) U1
 U 1 1 5FBD4D7B
-P 9250 3850
-F 0 "U1" H 9250 5397 60  0000 C CNN
-F 1 "TEENSY2.0" H 9250 5291 60  0000 C CNN
-F 2 "m78:Teensy2.0" H 9250 3850 50  0001 C CNN
-F 3 "" H 9250 3850 50  0001 C CNN
-	1    9250 3850
+P 9100 4950
+F 0 "U1" H 9100 6497 60  0000 C CNN
+F 1 "TEENSY2.0" H 9100 6391 60  0000 C CNN
+F 2 "m78:Teensy2.0-pins" H 9100 4950 50  0000 C CNN
+F 3 "" H 9100 4950 50  0001 C CNN
+	1    9100 4950
+	1    0    0    -1  
+$EndComp
+Text GLabel 10300 5000 2    50   BiDi ~ 0
+c12
+Text GLabel 10300 5300 2    50   BiDi ~ 0
+c11
+Text GLabel 10300 5400 2    50   BiDi ~ 0
+c10
+Text GLabel 10300 5500 2    50   BiDi ~ 0
+c9
+Connection ~ 7300 3350
+Wire Wire Line
+	7300 3800 7300 3350
+Wire Wire Line
+	7400 3500 7950 3500
+Wire Wire Line
+	7400 3650 7400 3500
+$Comp
+L Switch:SW_Push SW78
+U 1 1 604BEEE7
+P 7600 3650
+F 0 "SW78" H 7600 3843 50  0000 C CNN
+F 1 "mx" H 7600 3844 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 7600 3850 50  0001 C CNN
+F 3 "~" H 7600 3850 50  0001 C CNN
+	1    7600 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6750 3350
+Wire Wire Line
+	6750 3800 6750 3350
+Wire Wire Line
+	6850 3650 6850 3500
+$Comp
+L Switch:SW_Push SW72
+U 1 1 604A7DE5
+P 7050 3650
+F 0 "SW72" H 7050 3843 50  0000 C CNN
+F 1 "mx" H 7050 3844 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 7050 3850 50  0001 C CNN
+F 3 "~" H 7050 3850 50  0001 C CNN
+	1    7050 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 3350
+Wire Wire Line
+	6200 3800 6200 3350
+Wire Wire Line
+	6300 3650 6300 3500
+$Comp
+L Switch:SW_Push SW66
+U 1 1 6048F9E9
+P 6500 3650
+F 0 "SW66" H 6500 3843 50  0000 C CNN
+F 1 "mx" H 6500 3844 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 6500 3850 50  0001 C CNN
+F 3 "~" H 6500 3850 50  0001 C CNN
+	1    6500 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 3350
+Wire Wire Line
+	5650 3800 5650 3350
+Wire Wire Line
+	5750 3650 5750 3500
+$Comp
+L Switch:SW_Push SW60
+U 1 1 6047F381
+P 5950 3650
+F 0 "SW60" H 5950 3843 50  0000 C CNN
+F 1 "mx" H 5950 3844 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 5950 3850 50  0001 C CNN
+F 3 "~" H 5950 3850 50  0001 C CNN
+	1    5950 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 3350
+Wire Wire Line
+	5100 3800 5100 3350
+Wire Wire Line
+	5200 3650 5200 3500
+$Comp
+L Switch:SW_Push SW54
+U 1 1 60471CDF
+P 5400 3650
+F 0 "SW54" H 5400 3843 50  0000 C CNN
+F 1 "mx" H 5400 3844 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 5400 3850 50  0001 C CNN
+F 3 "~" H 5400 3850 50  0001 C CNN
+	1    5400 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 4550 3350
+Wire Wire Line
+	4550 3800 4550 3350
+Wire Wire Line
+	4650 3650 4650 3500
+$Comp
+L Switch:SW_Push SW48
+U 1 1 60465FF1
+P 4850 3650
+F 0 "SW48" H 4850 3843 50  0000 C CNN
+F 1 "mx" H 4850 3844 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 4850 3850 50  0001 C CNN
+F 3 "~" H 4850 3850 50  0001 C CNN
+	1    4850 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 4000 3350
+Wire Wire Line
+	4000 3800 4000 3350
+Wire Wire Line
+	4100 3650 4100 3500
+$Comp
+L Switch:SW_Push SW42
+U 1 1 6045B7A3
+P 4300 3650
+F 0 "SW42" H 4300 3843 50  0000 C CNN
+F 1 "mx" H 4300 3844 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 4300 3850 50  0001 C CNN
+F 3 "~" H 4300 3850 50  0001 C CNN
+	1    4300 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3450 3350
+Wire Wire Line
+	3450 3800 3450 3350
+Wire Wire Line
+	3550 3650 3550 3500
+$Comp
+L Switch:SW_Push SW36
+U 1 1 60453543
+P 3750 3650
+F 0 "SW36" H 3750 3843 50  0000 C CNN
+F 1 "mx" H 3750 3844 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3750 3850 50  0001 C CNN
+F 3 "~" H 3750 3850 50  0001 C CNN
+	1    3750 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 3350
+Wire Wire Line
+	2300 3800 2300 3350
+Wire Wire Line
+	2400 3650 2400 3500
+$Comp
+L Switch:SW_Push SW24
+U 1 1 60448489
+P 2600 3650
+F 0 "SW24" H 2600 3843 50  0000 C CNN
+F 1 "mx" H 2600 3844 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 2600 3850 50  0001 C CNN
+F 3 "~" H 2600 3850 50  0001 C CNN
+	1    2600 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 1200 3350
+Wire Wire Line
+	1200 3800 1200 3350
+Wire Wire Line
+	1300 3650 1300 3500
+Wire Wire Line
+	750  3650 750  3500
+$Comp
+L Switch:SW_Push SW6
+U 1 1 604338E7
+P 950 3650
+F 0 "SW6" H 950 3843 50  0000 C CNN
+F 1 "mx" H 950 3844 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 950 3850 50  0001 C CNN
+F 3 "~" H 950 3850 50  0001 C CNN
+	1    950  3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW30
+U 1 1 6044DB97
+P 3200 3650
+F 0 "SW30" H 3200 3843 50  0000 C CNN
+F 1 "mx" H 3200 3844 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3200 3850 50  0001 C CNN
+F 3 "~" H 3200 3850 50  0001 C CNN
+	1    3200 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3650 3000 3500
+Connection ~ 2900 3350
+Wire Wire Line
+	2900 3800 2900 3350
+$Comp
+L Switch:SW_Push SW12
+U 1 1 604422F3
+P 1500 3650
+F 0 "SW12" H 1500 3843 50  0000 C CNN
+F 1 "mx" H 1500 3844 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 1500 3850 50  0001 C CNN
+F 3 "~" H 1500 3850 50  0001 C CNN
+	1    1500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW18
+U 1 1 60445099
+P 2050 3650
+F 0 "SW18" H 2050 3843 50  0000 C CNN
+F 1 "mx" H 2050 3844 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 2050 3850 50  0001 C CNN
+F 3 "~" H 2050 3850 50  0001 C CNN
+	1    2050 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3650 1850 3500
+Connection ~ 2400 3050
+Wire Wire Line
+	1850 3050 2400 3050
+Connection ~ 1850 3050
+Wire Wire Line
+	1300 3050 1850 3050
+Connection ~ 2400 2650
+Wire Wire Line
+	1850 2650 2400 2650
+Connection ~ 1850 2650
+Wire Wire Line
+	1300 2650 1850 2650
+Connection ~ 2400 2200
+Wire Wire Line
+	1850 2200 2400 2200
+Connection ~ 1850 2200
+Wire Wire Line
+	1300 2200 1850 2200
+Connection ~ 2400 1750
+Wire Wire Line
+	1850 1750 2400 1750
+Connection ~ 1850 1750
+Wire Wire Line
+	1300 1750 1850 1750
+Connection ~ 2400 1300
+Wire Wire Line
+	1850 1300 2400 1300
+Connection ~ 1850 1300
+Connection ~ 1300 1300
+Wire Wire Line
+	1300 1300 1850 1300
+Wire Wire Line
+	1750 3800 1750 3350
+Connection ~ 1750 3350
+Wire Wire Line
+	1950 3350 1750 3350
+Wire Wire Line
+	1850 3200 1850 3050
+$Comp
+L Switch:SW_Push SW17
+U 1 1 604450A8
+P 2050 3200
+F 0 "SW17" H 2050 3393 50  0000 C CNN
+F 1 "mx" H 2050 3394 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 2050 3400 50  0001 C CNN
+F 3 "~" H 2050 3400 50  0001 C CNN
+	1    2050 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 1750 2500
+Wire Wire Line
+	1950 2500 1750 2500
+Wire Wire Line
+	1850 2350 1850 2200
+$Comp
+L Switch:SW_Push SW15
+U 1 1 6044508A
+P 2050 2350
+F 0 "SW15" H 2050 2543 50  0000 C CNN
+F 1 "mx" H 2050 2544 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 2050 2550 50  0001 C CNN
+F 3 "~" H 2050 2550 50  0001 C CNN
+	1    2050 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3350 1750 2950
+Wire Wire Line
+	1750 2950 1750 2500
+Connection ~ 1750 2950
+Wire Wire Line
+	1950 2950 1750 2950
+Wire Wire Line
+	1850 2800 1850 2650
+$Comp
+L Switch:SW_Push SW16
+U 1 1 6044507B
+P 2050 2800
+F 0 "SW16" H 2050 2993 50  0000 C CNN
+F 1 "mx" H 2050 2994 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 2050 3000 50  0001 C CNN
+F 3 "~" H 2050 3000 50  0001 C CNN
+	1    2050 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1600 1750 1200
+Connection ~ 1750 1600
+Wire Wire Line
+	1950 1600 1750 1600
+Wire Wire Line
+	1850 1450 1850 1300
+$Comp
+L Switch:SW_Push SW13
+U 1 1 6044506C
+P 2050 1450
+F 0 "SW13" H 2050 1643 50  0000 C CNN
+F 1 "mx" H 2050 1644 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 2050 1650 50  0001 C CNN
+F 3 "~" H 2050 1650 50  0001 C CNN
+	1    2050 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1600 1750 2050
+Wire Wire Line
+	1750 2500 1750 2050
+Connection ~ 1750 2050
+Wire Wire Line
+	1950 2050 1750 2050
+Wire Wire Line
+	1850 1900 1850 1750
+$Comp
+L Switch:SW_Push SW14
+U 1 1 6044505D
+P 2050 1900
+F 0 "SW14" H 2050 2093 50  0000 C CNN
+F 1 "mx" H 2050 2094 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 2050 2100 50  0001 C CNN
+F 3 "~" H 2050 2100 50  0001 C CNN
+	1    2050 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3350 1700 3200
+$Comp
+L Device:D D11
+U 1 1 60442308
+P 1550 3350
+F 0 "D11" H 1550 3475 50  0000 C CNN
+F 1 "D" H 1550 3476 50  0001 C CNN
+F 2 "m78:diode_v" H 1550 3350 50  0001 C CNN
+F 3 "~" H 1550 3350 50  0001 C CNN
+	1    1550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 60442302
+P 1500 3200
+F 0 "SW11" H 1500 3393 50  0000 C CNN
+F 1 "mx" H 1500 3394 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 1500 3400 50  0001 C CNN
+F 3 "~" H 1500 3400 50  0001 C CNN
+	1    1500 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3800 1700 3650
+$Comp
+L Device:D D12
+U 1 1 604422F9
+P 1550 3800
+F 0 "D12" H 1550 3925 50  0000 C CNN
+F 1 "D" H 1550 3926 50  0001 C CNN
+F 2 "m78:diode_v" H 1550 3800 50  0001 C CNN
+F 3 "~" H 1550 3800 50  0001 C CNN
+	1    1550 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2500 1700 2350
+$Comp
+L Device:D D9
+U 1 1 604422EA
+P 1550 2500
+F 0 "D9" H 1550 2625 50  0000 C CNN
+F 1 "D" H 1550 2626 50  0001 C CNN
+F 2 "m78:diode_v" H 1550 2500 50  0001 C CNN
+F 3 "~" H 1550 2500 50  0001 C CNN
+	1    1550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 604422E4
+P 1500 2350
+F 0 "SW9" H 1500 2543 50  0000 C CNN
+F 1 "mx" H 1500 2544 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 1500 2550 50  0001 C CNN
+F 3 "~" H 1500 2550 50  0001 C CNN
+	1    1500 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2950 1700 2800
+$Comp
+L Device:D D10
+U 1 1 604422DB
+P 1550 2950
+F 0 "D10" H 1550 3075 50  0000 C CNN
+F 1 "D" H 1550 3076 50  0001 C CNN
+F 2 "m78:diode_v" H 1550 2950 50  0001 C CNN
+F 3 "~" H 1550 2950 50  0001 C CNN
+	1    1550 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 604422D5
+P 1500 2800
+F 0 "SW10" H 1500 2993 50  0000 C CNN
+F 1 "mx" H 1500 2994 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 1500 3000 50  0001 C CNN
+F 3 "~" H 1500 3000 50  0001 C CNN
+	1    1500 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1600 1700 1450
+$Comp
+L Device:D D7
+U 1 1 604422CC
+P 1550 1600
+F 0 "D7" H 1550 1725 50  0000 C CNN
+F 1 "D" H 1550 1726 50  0001 C CNN
+F 2 "m78:diode_v" H 1550 1600 50  0001 C CNN
+F 3 "~" H 1550 1600 50  0001 C CNN
+	1    1550 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW7
+U 1 1 604422C6
+P 1500 1450
+F 0 "SW7" H 1500 1643 50  0000 C CNN
+F 1 "mx" H 1500 1644 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 1500 1650 50  0001 C CNN
+F 3 "~" H 1500 1650 50  0001 C CNN
+	1    1500 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2050 1700 1900
+$Comp
+L Device:D D8
+U 1 1 604422BD
+P 1550 2050
+F 0 "D8" H 1550 2175 50  0000 C CNN
+F 1 "D" H 1550 2176 50  0001 C CNN
+F 2 "m78:diode_v" H 1550 2050 50  0001 C CNN
+F 3 "~" H 1550 2050 50  0001 C CNN
+	1    1550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 604422B7
+P 1500 1900
+F 0 "SW8" H 1500 2093 50  0000 C CNN
+F 1 "mx" H 1500 2094 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 1500 2100 50  0001 C CNN
+F 3 "~" H 1500 2100 50  0001 C CNN
+	1    1500 1900
+	1    0    0    -1  
+$EndComp
+Connection ~ 1300 3050
+Wire Wire Line
+	750  3050 1300 3050
+$Comp
+L Switch:SW_Push SW2
+U 1 1 60430AD3
+P 950 1900
+F 0 "SW2" H 950 2093 50  0000 C CNN
+F 1 "mx" H 950 2094 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 950 2100 50  0001 C CNN
+F 3 "~" H 950 2100 50  0001 C CNN
+	1    950  1900
+	1    0    0    -1  
+$EndComp
+Connection ~ 1300 1750
+Wire Wire Line
+	750  1750 1300 1750
+Connection ~ 1300 2650
+Wire Wire Line
+	750  2650 1300 2650
+Connection ~ 1200 2950
+Wire Wire Line
+	1200 2950 1200 2500
+Connection ~ 1300 2200
+Wire Wire Line
+	750  2200 1300 2200
+Connection ~ 1200 2500
+Wire Wire Line
+	1200 2500 1200 2050
+Connection ~ 1200 2050
+Wire Wire Line
+	1200 1600 1200 2050
+Connection ~ 1200 1600
+Wire Wire Line
+	1200 1600 1200 1200
+Wire Wire Line
+	650  3800 650  3350
+Connection ~ 650  3350
+Wire Wire Line
+	650  3350 650  2950
+Connection ~ 650  2950
+Wire Wire Line
+	650  2950 650  2500
+Wire Wire Line
+	650  2050 650  1600
+Connection ~ 650  2050
+Connection ~ 650  2500
+Wire Wire Line
+	650  2500 650  2050
+Connection ~ 650  1600
+Wire Wire Line
+	650  1600 650  1200
+Connection ~ 7400 3500
+Wire Wire Line
+	6850 3500 7400 3500
+Connection ~ 6850 3500
+Wire Wire Line
+	6300 3500 6850 3500
+Connection ~ 6300 3500
+Wire Wire Line
+	5750 3500 6300 3500
+Connection ~ 5750 3500
+Wire Wire Line
+	5200 3500 5750 3500
+Connection ~ 1850 3500
+Wire Wire Line
+	1300 3500 1850 3500
+Wire Wire Line
+	4100 3500 4650 3500
+Connection ~ 5200 3500
+Connection ~ 4650 3500
+Wire Wire Line
+	4650 3500 5200 3500
+Connection ~ 4100 3500
+Wire Wire Line
+	3550 3500 4100 3500
+Connection ~ 3550 3500
+Wire Wire Line
+	3000 3500 3550 3500
+Connection ~ 3000 3500
+Wire Wire Line
+	2400 3500 3000 3500
+Connection ~ 2400 3500
+Wire Wire Line
+	1850 3500 2400 3500
+Connection ~ 1300 3500
+Wire Wire Line
+	750  3500 1300 3500
+Wire Wire Line
+	1950 3800 1750 3800
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO1
+U 1 1 611D119E
+P 9550 2350
+F 0 "#LOGO1" H 9550 2625 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 9550 2125 50  0001 C CNN
+F 2 "" H 9550 2350 50  0001 C CNN
+F 3 "~" H 9550 2350 50  0001 C CNN
+	1    9550 2350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
